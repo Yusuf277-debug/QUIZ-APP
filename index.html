@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>General Knowledge Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="quiz-container">
+
+        <h1>🧠 General Knowledge Quiz</h1>
+
+        <!-- Quiz Header -->
+        <div class="quiz-header">
+            <span id="questionNumber">
+                Question 1 of 7
+            </span>
+
+            <span id="score">
+                Score: 0
+            </span>
+        </div>
+
+        <!-- Quiz Section -->
+        <section id="quiz">
+
+            <h2 id="question">
+                Question goes here
+            </h2>
+
+            <!-- Answer buttons will be created by JavaScript -->
+            <div id="answer-buttons"></div>
+
+            <button id="next-btn" type="button">
+                Next Question
+            </button>
+
+        </section>
+
+        <!-- Result Section -->
+        <section id="result" class="hidden">
+
+            <h2>🎉 Quiz Completed!</h2>
+
+            <p id="final-score"></p>
+
+            <button id="restart-btn" type="button">
+                Restart Quiz
+            </button>
+
+        </section>
+
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
